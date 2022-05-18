@@ -18,7 +18,7 @@ h2 {
 
 /*wallpaper*/
 .fondo {
-  background-image: url(../imagenes/fondo.jpg);
+  background-image: url(./imagenes/fondo.jpg);
   background-size: 1400px 1080px;
   background-repeat: no-repeat;
   display: grid;
