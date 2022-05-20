@@ -193,24 +193,19 @@ h2 {
 
 /*# sourceMappingURL=estilos.css.map */
 
-.carousel-inner
-{
-  width: 500px;
-  height: 500px;
-  }
 
-.carousel-item
-  {
-    width: 500px;
-    height: 500px;
-    }
+.carousel-inner {
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 500px; 
+  margin: 1rem;
+  border-radius: 100px;
+ 
+  
+}
 
-.d-block {
-    width: 500px;
-    height: 500px;
-    }
-
-.carrousel {
-  width: 500px;
-    height: 500px;
+.carousel-item {
+  border-radius: 100%;
 }
