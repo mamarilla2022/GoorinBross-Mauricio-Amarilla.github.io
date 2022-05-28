@@ -114,7 +114,7 @@ h2 {
 
 /*subtitulo: somos importadores directos*/
 .somos {
-  display: block;
+  
   display: grid;
   padding-top: 70px;
   text-align: center;
@@ -125,18 +125,20 @@ h2 {
 .somos__importadores {
   color: black;
   display: block;
-  font-size: 50px;
-  background-color: aliceblue;
+  font-size: 40px;
+  background-color: rgba(240, 248, 255, 0.692);
 }
 
 /*imagen de los articulos*/
 .tarjeta {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 1rem;
   display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8rem;
+  padding-top: 6rem;
+  margin-left: 8rem;
+
+  
 }
 
 /*propiedades de la foto*/
@@ -168,6 +170,7 @@ h2 {
 .footer__pagina {
   color: rgb(255, 136, 0);
   left: 15px;
+  font-size: 28px;
 }
 
 /*mapa en el footer*/
