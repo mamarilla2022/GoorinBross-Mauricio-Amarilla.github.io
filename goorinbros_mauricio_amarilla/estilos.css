@@ -30,7 +30,6 @@ h2 {
 /*barra del header de la página*/
 .barra {
   display: grid;
-  display: block;
   position: fixed;
   z-index: 11;
   width: 100%;
@@ -246,74 +245,131 @@ h2 {
 
 /* configuracion de responsive*/
 
+
 @media (max-width: 760px){
   .barra__paginas {
+    display: block;
+    position: ;
     width: 0%;
-    border: 10%;
     padding-top: 3rem;
+    
   }
 }
   
 @media (max-width: 760px) {
   .barra {
-    display: grid;
+    display: block;
     position: fixed;
     width: 100%;
-    padding-top: 0%;
-    margin-top: 0%;
-    border-top: 0%;
-    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    text-align: left;
+    font-size: 20px;
     
   }
   }
 
-
+@media (max-width:760px){
+  .barra__titulo {
+    font-size: 25px;
+  }
+  
+}
 
   @media (max-width: 760px) {
     .somos {
-     width:80%;
+      display: block;
+      position:relative;
+      width: 80%;
+      padding-top: 4rem;
       padding-left: 3rem;
       border-left: 3rem;
       margin-left: 3rem;
-       
+           
      }
    }
 
    @media (max-width: 760px) {
     .somos__importadores {
+      
+      display: block;
+      position:relative;
       width: 80%;
-      padding-left: 3rem;
-       margin: 3rem;
-       border-left: 3rem;
+      padding-left: 2rem;
+       margin: 2rem;
+       border-left: 2rem;
        text-align: left;
+       font-size: 25px;
        
      }
    }
 
-  @media (max-width: 760px) {
-    .article {
-      display: grid;
-      width: 100%;
-        padding-left: 3rem;
-        padding-right: 3rem;
-        justify-content: center;
-        
-      }
-}
+   @media (max-width: 760px){
+     .tarjeta {
+       display: block;
+       position: relative;
+       width: 80%;
+       
+     }
+   }
+/*
+   @media (max-width: 760px) {
+    .carousel-inner {
+      
+      display: block;
+      position: relative;
+      width: 80%;
+      padding-top: 25%;
+      
+       
+     }
+   }
+*/
 
-
+/*
+   @media (max-width: 760px) {
+    .d-block {
+      display: block;
+      position: relative;
+      width: 80%;
+      padding-top: 25%;
+      
+       
+     }
+   }
+   */
+/*
+   @media (max-width: 760px) {
+    .carousel {
+      display: block;
+      position: relative;      
+      width: 80%;
+      padding-top: 25%;
+      
+       
+     }
+   }
+*/
+ 
 
 @media (max-width: 760px) {
   .footerPagina {
-    
-    padding: 2%;
-    margin: 2%;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    display: block;
+    position: absolute;
+    width: 100%;
     }
 }
 
+
 @media (max-width:760px){
   .footer__pagina {
-    display: grid;    
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
     font-size: 13px;
     width: 100%;
     height: 50%;
@@ -323,29 +379,34 @@ h2 {
 
 @media (max-width:760px){
   .footer__mapa2 {
-    display: grid;    
-    font-size: 13px;
-    width: 100%;
-    height: 50%;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    display: block;
+    width: 0%;
+    height: 0%;
 
   }
 }
-/*
-@media (max-width: 760px) {
-  .somos {
+
+@media (max-width:760px){
+  .footer__mapa {
     padding: 0%;
     margin: 0%;
-    width: 100%;   
-    }
+    border: 0%;
+    display: block;
+    width: 0%;
+    height: 0%;
+
+  }
 }
 
-@media (max-width: 760px) {
-  .somos__importadores {
-    
-   
-   padding: 0%;
-   margin: 0%;
-   width: 100%;
-    }
+@media (max-width:760px){
+  .fondo {
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    width: auto;
+    height: auto;
+  }
 }
-*/
